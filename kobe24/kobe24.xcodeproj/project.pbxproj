@@ -13,6 +13,7 @@
 		913AC06E1D6FED8500C45E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913AC06C1D6FED8500C45E55 /* Main.storyboard */; };
 		913AC0701D6FED8500C45E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913AC06F1D6FED8500C45E55 /* Assets.xcassets */; };
 		913AC0731D6FED8500C45E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913AC0711D6FED8500C45E55 /* LaunchScreen.storyboard */; };
+		913AC07C1D6FF04000C45E55 /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 913AC07B1D6FF04000C45E55 /* MJPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		913AC06F1D6FED8500C45E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913AC0721D6FED8500C45E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		913AC0741D6FED8500C45E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913AC07A1D6FF04000C45E55 /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		913AC07B1D6FF04000C45E55 /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				913AC0671D6FED8500C45E55 /* AppDelegate.m */,
 				913AC0691D6FED8500C45E55 /* ViewController.h */,
 				913AC06A1D6FED8500C45E55 /* ViewController.m */,
+				913AC07A1D6FF04000C45E55 /* MJPerson.h */,
+				913AC07B1D6FF04000C45E55 /* MJPerson.m */,
 				913AC06C1D6FED8500C45E55 /* Main.storyboard */,
 				913AC06F1D6FED8500C45E55 /* Assets.xcassets */,
 				913AC0711D6FED8500C45E55 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				913AC06B1D6FED8500C45E55 /* ViewController.m in Sources */,
 				913AC0681D6FED8500C45E55 /* AppDelegate.m in Sources */,
 				913AC0651D6FED8500C45E55 /* main.m in Sources */,
+				913AC07C1D6FF04000C45E55 /* MJPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				913AC0791D6FED8500C45E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
