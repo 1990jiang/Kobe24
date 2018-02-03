@@ -24,7 +24,8 @@
   
   //添加一个绿色View
   UIView *greenView = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
-  greenView.backgroundColor = [UIColor greenColor];
+  //修改绿色View的颜色为黑色
+  greenView.backgroundColor = [UIColor blackColor];
   [self.view addSubview:greenView];
   
   
