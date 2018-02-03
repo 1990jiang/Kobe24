@@ -18,6 +18,9 @@
     [super viewDidLoad];
 //设置背景颜色
   self.view.backgroundColor = [UIColor orangeColor];
+  UIView *redView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+  redView.backgroundColor = [UIColor redColor];
+  [self.view addSubview:redView];
 }
 
 @end
